@@ -15,6 +15,6 @@ var data2 = Immutable.fromJS({ a: [1, 2, 3] });
 console.log("data ==" ,data2)
 var cursor2 = Cursor.from(data2);
 console.log("cursor ==" ,cursor2);
-var deepCursor = <any>cursor2.cursor2('a');
+//var deepCursor = cursor2.cursor2('a');
 
 
